@@ -1,0 +1,18 @@
+{
+  "name": "Ytb URL Tango",
+  "description": "Get the URL dancing tango.",
+  "version": "1.0",
+  "permissions": [
+    "debugger",
+    "tabs",
+	"webRequest",
+	"<all_urls>"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "URL Tango",
+	"default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
+
